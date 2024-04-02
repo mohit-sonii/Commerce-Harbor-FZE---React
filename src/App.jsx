@@ -10,9 +10,9 @@ function App() {
                     <div id="header">
                          <Header />
                     </div>
-                    <div id="navigation">
+                    {/* <div id="navigation"> */}
                          <NavBar/>
-                    </div>
+                    {/* </div> */}
                </div>
           </>
      )

@@ -1,31 +1,44 @@
-
-nav ul li{
+nav ul li {
      list-style-type: none;
      color: #e7e7e7;
-     font-size: 1.8rem;
+     font-size: 1.6rem;
      font-weight: 700;
      display: flex;
-     font-family:"Raleway",sans-serif;
+     font-family: "Raleway", sans-serif;
      cursor: pointer;
 }
-nav ul li:hover{
+
+@media only screen and (max-width:900px) {
+     nav ul li {
+          font-size: 1.2rem;
+     }
+
+}
+
+nav ul li:hover {
      color: white;
 }
-#navigation{
-     position: relative;
+
+#navigate {
+     /* position: relative; */
      width: 100%;
      display: flex;
 }
-nav ul{
+
+nav ul {
      display: flex;
      gap: 3rem;
 }
-nav{
+
+nav {
      background-color: red;
      padding: 2rem;
-     width:max-content;
+     border-radius: 1rem 0 0 1rem;
+     /* height: auto; */
+     width: max-content;
      display: flex;
      position: absolute;
      right: 0;
+     flex-wrap: wrap;
      margin: auto;
 }
