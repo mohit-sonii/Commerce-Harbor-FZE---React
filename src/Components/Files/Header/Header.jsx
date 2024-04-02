@@ -5,7 +5,7 @@ import { BsTelephone } from "react-icons/bs";
 import '../../Styles/Header/Header.css'
 import TelMessage from "./TelMessage";
 
-const Top = () => {
+const Header = () => {
      return (
           <div id="HeaderStyles">
                <div className="logo">
@@ -19,4 +19,4 @@ const Top = () => {
      )
 }
 
-export default Top
+export default Header
