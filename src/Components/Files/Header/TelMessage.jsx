@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Styles/NavBar/TelMessage.css'
+import '../../Styles/Header/TelMessage.css'
 const TelMessage = ({ value, icon }) => {
      return (
           <>

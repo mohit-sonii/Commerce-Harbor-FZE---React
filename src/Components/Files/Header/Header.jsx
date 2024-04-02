@@ -2,12 +2,12 @@ import Logo from "./Logo";
 import { CiMail } from "react-icons/ci";
 import React from 'react'
 import { BsTelephone } from "react-icons/bs";
-import '../../Styles/NavBar/NavBar.css'
+import '../../Styles/Header/Header.css'
 import TelMessage from "./TelMessage";
 
-const NavBar = () => {
+const Top = () => {
      return (
-          <div id="NavBarStyles">
+          <div id="HeaderStyles">
                <div className="logo">
                     <Logo />
                </div>
@@ -19,4 +19,4 @@ const NavBar = () => {
      )
 }
 
-export default NavBar
+export default Top

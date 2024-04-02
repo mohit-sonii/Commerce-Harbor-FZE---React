@@ -1,15 +1,17 @@
 
-#NavBarStyles{
+#HeaderStyles{
      /* padding: 5rem; */
      display: flex;
      margin-top: 3rem;
      justify-content: 
      space-between;
      width: 100%;
+     gap:2rem;
 }
-#NavBarStyles .tele-mess{
+#HeaderStyles .tele-mess{
      display: flex;
      gap: 2rem;
+     justify-content: center;
      align-items: center;
 }
 
