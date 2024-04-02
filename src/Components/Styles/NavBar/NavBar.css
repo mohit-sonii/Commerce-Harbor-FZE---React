@@ -1,0 +1,15 @@
+
+#NavBarStyles{
+     /* padding: 5rem; */
+     display: flex;
+     margin-top: 3rem;
+     justify-content: 
+     space-between;
+     width: 100%;
+}
+#NavBarStyles .tele-mess{
+     display: flex;
+     gap: 2rem;
+     align-items: center;
+}
+
