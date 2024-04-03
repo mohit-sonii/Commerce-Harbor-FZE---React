@@ -4,7 +4,6 @@ import React from 'react'
 
 const NavBar = () => {
      return (
-          <div id='navigate'>
                <nav>
                     <ul>
                          <li>Home</li>
@@ -14,7 +13,6 @@ const NavBar = () => {
                          <li>Contact Us</li>
                     </ul>
                </nav>
-          </div>
      )
 }
 

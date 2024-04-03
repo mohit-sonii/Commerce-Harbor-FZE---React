@@ -1,0 +1,11 @@
+
+
+button{
+     font-family: "Raleway",sans-serif;
+     font-size: 1.8rem;
+     font-weight: 800;
+     background-color: red;
+     color: white;
+     border-radius: 1rem;
+     padding: 6rem 24rem;
+}

@@ -1,7 +1,8 @@
 import React from "react"
 import './App.css'
+// import image1 from "../assets/Thumbnail/Picture1.png"
 import Header from "./Components/Files/Header/Header"
-import NavBar from "./Components/Files/NavBar/NavBar"
+import LandingPage from "./Components/Files/LandingPage/LandingPage"
 
 function App() {
      return (
@@ -10,8 +11,8 @@ function App() {
                     <div id="header">
                          <Header />
                     </div>
-                    {/* <div id="navigation"> */}
-                         <NavBar/>
+                    {/* <div id="landing-page"> */}
+                         <LandingPage/>
                     {/* </div> */}
                </div>
           </>

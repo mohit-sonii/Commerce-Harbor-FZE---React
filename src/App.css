@@ -1,12 +1,17 @@
-#main{
-     width: 95%;
+#main {
+     width: 100%;
      margin: auto;
+     gap: 2rem;
+     /* height: max-content; */
      display: flex;
 }
-#main #header{
-     width: 100%;
+
+ #header {
+     width: 95%;
+     margin: auto;
 }
 
-#main #navigation{
+#navigation {
      width: 100%;
+     /* margin: auto; */
 }

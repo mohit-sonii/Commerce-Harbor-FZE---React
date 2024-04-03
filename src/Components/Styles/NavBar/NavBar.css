@@ -8,37 +8,37 @@ nav ul li {
      cursor: pointer;
 }
 
+nav ul li:hover {
+     color: white;
+}
+
+
+nav {
+     display: flex;     
+     width: 100%;
+     justify-content: flex-end;
+     flex-wrap: wrap;
+     margin: auto;
+}
+
+
+nav ul {
+     display: flex;
+     gap: 3rem;
+     background-color: red;
+     padding: 2rem;
+     width: max-content;
+     
+     border-radius: 1rem 0 0 1rem;
+}
+
 @media only screen and (max-width:900px) {
      nav ul li {
           font-size: 1.2rem;
      }
 
-}
+     nav {
+          justify-content: center;
+     }
 
-nav ul li:hover {
-     color: white;
-}
-
-#navigate {
-     /* position: relative; */
-     width: 100%;
-     display: flex;
-}
-
-nav ul {
-     display: flex;
-     gap: 3rem;
-}
-
-nav {
-     background-color: red;
-     padding: 2rem;
-     border-radius: 1rem 0 0 1rem;
-     /* height: auto; */
-     width: max-content;
-     display: flex;
-     position: absolute;
-     right: 0;
-     flex-wrap: wrap;
-     margin: auto;
 }
