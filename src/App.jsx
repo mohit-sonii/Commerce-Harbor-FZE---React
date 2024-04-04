@@ -5,6 +5,7 @@ import LandingPage from "./Components/Files/LandingPage/LandingPage"
 import WhatWeDo from "./Components/Files/What we Do/WhatWeDo"
 import Products from "./Components/Files/Products/Products"
 import OurMission from "./Components/Files/OurMission/OurMission"
+import Qualities from "./Components/Files/Qualities/Qualities"
 
 function App() {
      return (
@@ -21,6 +22,9 @@ function App() {
                          <Products/>
                     </div>
                     <OurMission/>
+                    <div id="qualities">
+                         <Qualities/>
+                    </div>
                </div>
           </>
      )
