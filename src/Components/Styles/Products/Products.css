@@ -2,6 +2,16 @@
 #product-section{
      width: 100%;
      display: flex;
+     /* justify-content: space-between; */
+     flex-direction: column;
+     gap:6rem;
+}
+#cards{
+     width: 100%;
+     display: flex;
      justify-content: space-between;
-     /* gap:3rem; */
+}
+.product-button{
+     display: flex;
+     justify-content: center;
 }
