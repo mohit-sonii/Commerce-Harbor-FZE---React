@@ -1,9 +1,9 @@
 import React from "react"
 import './App.css'
-// import image1 from "../assets/Thumbnail/Picture1.png"
 import Header from "./Components/Files/Header/Header"
 import LandingPage from "./Components/Files/LandingPage/LandingPage"
 import WhatWeDo from "./Components/Files/What we Do/WhatWeDo"
+import Products from "./Components/Files/Products/Products"
 
 function App() {
      return (
@@ -15,6 +15,9 @@ function App() {
                     <LandingPage />
                     <div id="WhatWeDo">
                          <WhatWeDo />
+                    </div>
+                    <div id="products">
+                         <Products/>
                     </div>
                </div>
           </>

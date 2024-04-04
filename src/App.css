@@ -6,14 +6,21 @@
      display: flex;
 }
 
- #header {
+#header {
      width: 95%;
      margin: auto;
 }
-#WhatWeDo{
+
+#WhatWeDo {
      width: 90%;
      margin: auto;
      z-index: 10;
      margin-top: -10rem;
      background-color: white;
+}
+
+#products {
+     width: 90%;
+     margin: auto;
+     margin-top: 5rem;
 }
