@@ -17,6 +17,8 @@
 
      justify-content: flex-start;
      align-items: center;
+     background-size: max(1000px,100vw);
+     background-position: center center;
      background-repeat: no-repeat;
      /* z-index: -1; */
 }
