@@ -4,6 +4,7 @@ import Header from "./Components/Files/Header/Header"
 import LandingPage from "./Components/Files/LandingPage/LandingPage"
 import WhatWeDo from "./Components/Files/What we Do/WhatWeDo"
 import Products from "./Components/Files/Products/Products"
+import OurMission from "./Components/Files/OurMission/OurMission"
 
 function App() {
      return (
@@ -19,6 +20,7 @@ function App() {
                     <div id="products">
                          <Products/>
                     </div>
+                    <OurMission/>
                </div>
           </>
      )
