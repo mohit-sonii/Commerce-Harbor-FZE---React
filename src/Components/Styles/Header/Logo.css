@@ -1,13 +1,18 @@
 
 .main-container{
-     display: flex;
+     display: flex;   
      gap: 1rem;
+     margin: auto;
+     justify-content: center;
+     align-items: center;
      width: max-content;
 }
+
 
 .main-container .logo-image img{
      width: 6rem;
      height: 5rem;
+     margin-top: 0;
 }
 
 .main-container .logo-content{
