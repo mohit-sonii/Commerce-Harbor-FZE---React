@@ -7,6 +7,7 @@ import Products from "./Components/Files/Products/Products"
 import OurMission from "./Components/Files/OurMission/OurMission"
 import Qualities from "./Components/Files/Qualities/Qualities"
 import Excellence from "./Components/Files/Excellence/Excellence"
+import CTA from "./Components/Files/CTA/CTA"
 
 function App() {
      return (
@@ -27,6 +28,9 @@ function App() {
                          <Qualities/>
                     </div>
                     <Excellence/>
+                    <div id="cta">
+                         <CTA/>
+                    </div>
                </div>
           </>
      )
