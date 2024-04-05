@@ -10,6 +10,11 @@ button{
      border-radius: 0.3rem;
      padding: 1.5rem 3rem;
      cursor: pointer;
+     transition: all 0.2s ease-in;
+
+}
+button:hover{
+     font-weight: 700;
 }
 
 @media only screen and (max-width:900px){

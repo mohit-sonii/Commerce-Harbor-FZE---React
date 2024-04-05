@@ -27,6 +27,9 @@
 .ourMissionContext .ourMissionButton{
      margin-top:5rem;
      display: flex;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
      gap:6rem;
      margin-bottom: 5rem;
 
@@ -40,5 +43,4 @@
 
 .transparent:hover{
      background-color: #1d1d1d;
-     /* border: 2px solid transparent; */
 }
