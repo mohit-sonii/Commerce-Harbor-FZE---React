@@ -6,6 +6,7 @@ import WhatWeDo from "./Components/Files/What we Do/WhatWeDo"
 import Products from "./Components/Files/Products/Products"
 import OurMission from "./Components/Files/OurMission/OurMission"
 import Qualities from "./Components/Files/Qualities/Qualities"
+import Excellence from "./Components/Files/Excellence/Excellence"
 
 function App() {
      return (
@@ -25,6 +26,7 @@ function App() {
                     <div id="qualities">
                          <Qualities/>
                     </div>
+                    <Excellence/>
                </div>
           </>
      )
