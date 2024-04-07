@@ -25,15 +25,21 @@
      margin-top: 5rem;
 }
 
-#qualities{
+#qualities {
      width: 90%;
      margin: auto;
      margin-top: 8rem;
 }
 
-#cta{
+#cta {
      width: 90%;
      margin: auto;
      margin-top: 5rem;
-margin-bottom: 5rem;     
+     margin-bottom: 5rem;
+}
+
+#footer{
+     width: 100%;
+     margin-top: 5rem;
+     
 }

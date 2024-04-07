@@ -2,7 +2,7 @@
 .main-container{
      display: flex;   
      gap: 1rem;
-     margin: auto;
+     /* margin: auto; */
      justify-content: center;
      align-items: center;
      width: max-content;

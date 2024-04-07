@@ -4,7 +4,8 @@
      height: max-content;
      margin-bottom: 2rem;
 }
-.image .image-title{
+
+.image .image-title {
      width: 100%;
      display: flex;
 }
@@ -34,19 +35,21 @@
      font-size: 1.5rem;
 }
 
-@media only screen and (max-width:900px)
-{
-     .image{
-          width: 20rem;
+@media only screen and (max-width:900px) {
+     .image {
+          width: 18rem;
      }
-     .image img{
-          height: 16rem;
+
+     .image img {
+          height: 14rem;
      }
-     .white-box{
-          width: 13rem;
-          margin-top: -2rem;
+
+     .white-box {
+          width: 11rem;
+          margin-top: -1rem;
      }
-     .card-p{
+
+     .card-p {
           font-size: 1rem;
           font-weight: 600;
      }

@@ -8,6 +8,8 @@ import OurMission from "./Components/Files/OurMission/OurMission"
 import Qualities from "./Components/Files/Qualities/Qualities"
 import Excellence from "./Components/Files/Excellence/Excellence"
 import CTA from "./Components/Files/CTA/CTA"
+// import ContactCard from "./Components/Files/Footer/ContactCard"
+import Footer from "./Components/Files/Footer/Footer"
 
 function App() {
      return (
@@ -21,15 +23,18 @@ function App() {
                          <WhatWeDo />
                     </div>
                     <div id="products">
-                         <Products/>
+                         <Products />
                     </div>
-                    <OurMission/>
+                    <OurMission />
                     <div id="qualities">
-                         <Qualities/>
+                         <Qualities />
                     </div>
-                    <Excellence/>
+                    <Excellence />
                     <div id="cta">
-                         <CTA/>
+                         <CTA />
+                    </div>
+                    <div id="footer">
+                         <Footer />
                     </div>
                </div>
           </>

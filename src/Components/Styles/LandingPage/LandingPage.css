@@ -9,12 +9,10 @@
      background-image: url("../../../../assets/Thumbnail/Picture1.png");
      height: 90vh;
      background-size: cover;
-
      display: flex;
      position: relative;
      /* filter: grayscale(0.5); */
      top: -3.5rem;
-
      justify-content: flex-start;
      align-items: center;
      /* background-size: max(1000px,100vw); */
@@ -77,11 +75,11 @@
 
 @media only screen and (min-width:1601px) {
      .image-headings .heading {
-          font-size: 6rem;
+          font-size: 10rem;
      }
 
      .image-headings .subheading {
-          font-size: 2.2rem;
+          font-size: 4rem;
      }
 }
 
