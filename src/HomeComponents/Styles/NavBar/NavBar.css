@@ -12,6 +12,9 @@ nav ul li:hover {
      color: white;
 }
 
+nav ul li .orange{
+     color: orange;
+}
 
 nav {
      display: flex;     
