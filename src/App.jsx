@@ -8,7 +8,6 @@ import OurMission from "./Components/Files/OurMission/OurMission"
 import Qualities from "./Components/Files/Qualities/Qualities"
 import Excellence from "./Components/Files/Excellence/Excellence"
 import CTA from "./Components/Files/CTA/CTA"
-// import ContactCard from "./Components/Files/Footer/ContactCard"
 import Footer from "./Components/Files/Footer/Footer"
 
 function App() {

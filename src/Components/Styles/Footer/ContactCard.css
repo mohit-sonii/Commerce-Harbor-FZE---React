@@ -1,15 +1,19 @@
 #contactCard {
-     width: 100%;
+     min-width: 40rem;
      background-color: #000;
      display: flex;
      flex-direction: column;
-     gap: 5rem;
      /* margin: auto; */
      align-items: center;
-     padding: 6rem;
+     /* padding: 6rem; */
 }
 
-
+#contactCard .inner-contactCard{
+     display: flex;
+     margin: 5rem;
+     flex-direction: column;
+     gap: 5rem;
+}
 .contactInformation {
      display: flex;
      align-items: center;
@@ -17,15 +21,31 @@
      flex-direction: column;
 }
 
-.location {
+
+
+
+.contactInformation .phoneInfo .numbers
+{
      display: flex;
-     /* align-items: center; */
+     flex-direction: column;
+     gap: 0.5rem;
+
+}
+
+.location{
+     display: flex;
      align-items: flex-start;
      flex-direction: row;
 }
 
-.footer-p {
-     width: 60%;
+.mailInfo{
+     display: flex;
+}
+
+.footer-p,
+.contact-p,
+.mail-p {
+     width: 80%;
      font-size: 1.4rem;
      font-weight: 400;
      line-height: 20px;
@@ -41,9 +61,20 @@
      /* justify-items: flex-start; */
 }
 
+
+.contactInformation .phoneInfo{
+     display: flex;
+     /* gap: ; */
+}
+.phoneInfo p{
+     width: 100%;
+}
+
+
+
 @media only screen and (max-width:900px){
      #contactCard{
-          width: 75%;
-          padding: 4rem;
+          min-width: 30rem;
+          margin: 3rem;
      }
 }

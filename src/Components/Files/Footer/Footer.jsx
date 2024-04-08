@@ -4,7 +4,7 @@ import Links from './Links'
 
 import React from 'react'
 
-const LinkSection = () => {
+const Footer = () => {
      return (
           <>
                <div id="links">
@@ -21,4 +21,4 @@ const LinkSection = () => {
      )
 }
 
-export default LinkSection
+export default Footer

@@ -15,10 +15,15 @@
      font-weight: 400;
      color: rgba(255, 255, 255, 0.72);
      font-style: normal;
+     transition: all 0.2s ease-in;
+     cursor: pointer;
      line-height: 30px;
      /* 200% */ 
 }
+.footer-links  li:hover{
+     font-weight: 700;
 
+}
 .footer-links ul {
      display: flex;
      flex-direction: column;
@@ -41,3 +46,24 @@
      flex-direction: column;
      gap: 3rem;
 }
+
+.footer-links .link-redline{
+     display: flex;
+     flex-direction: column;
+}
+
+
+.footer-links img{
+     width: 3.5rem;
+     height: 0.4rem;
+ }
+
+
+ @media  only screen and (max-width:900px) {
+     .footer-links{
+          width: 100%;
+     }
+     #links{
+          justify-content: center;
+     }
+ }
