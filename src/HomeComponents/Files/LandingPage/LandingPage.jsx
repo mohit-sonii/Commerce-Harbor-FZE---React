@@ -9,7 +9,7 @@ const LandingPage = () => {
           <>
                <div id="container">
                     <div className="navigation">
-                         <NavBar />
+                         {/* <NavBar /> */}
                     </div>
                     <div className="image-container" >
                          <div className="image-headings">

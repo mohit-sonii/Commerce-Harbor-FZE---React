@@ -1,13 +1,16 @@
-nav ul li {
-     list-style-type: none;
+.nav-links{
      color: #e7e7e7;
      font-size: 1.6rem;
      font-weight: 700;
+     text-decoration: none;
      display: flex;
      font-family: "Raleway", sans-serif;
      cursor: pointer;
 }
 
+nav ul li {
+     list-style-type: none;
+}
 nav ul li:hover {
      color: white;
 }

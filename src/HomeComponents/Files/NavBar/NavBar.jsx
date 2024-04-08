@@ -1,7 +1,7 @@
 
 import '../../Styles/NavBar/NavBar.css'
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 // link k andr href ki jgh "to" likte hai 
 
 // NavLink k andr hm classes callback  k andr likte hai jisse hm classes ko manipulte kr ske. like color changing. 
@@ -14,16 +14,13 @@ const NavBar = () => {
      return (
           <nav>
                <ul>
-                    <li>
-                         <NavLink to="/">
-                              Home
-                         </NavLink>
-                    </li>
 
-                    <li><NavLink to="/industries">Industries</NavLink></li>
-                    <li><NavLink to="/products">Products</NavLink></li>
-                    <li><NavLink to="/about-us">About Us</NavLink></li>
-                    <li><NavLink to="/contact-us">Contact Us</NavLink></li>
+                    <li><NavLink exact to="/" className="nav-links">Home</NavLink></li>
+                    <li><NavLink to="/products" className="nav-links">Products</NavLink></li>
+                    <li><NavLink to="/industries" className="nav-links">Industries</NavLink></li>
+                    <li><NavLink to="/contact" className="nav-links">Contact Us</NavLink></li>
+                    <li><NavLink to="/about" className="nav-links">About Us</NavLink></li>
+
                </ul>
           </nav>
      )

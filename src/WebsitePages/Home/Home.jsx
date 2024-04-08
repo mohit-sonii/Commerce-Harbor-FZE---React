@@ -14,9 +14,6 @@ function Home() {
      return (
           <>
                <div id="main">
-                    {/* <div id="header">
-                         <Header />
-                    </div> */}
                     <LandingPage />
                     <div id="WhatWeDo">
                          <WhatWeDo />
@@ -32,9 +29,6 @@ function Home() {
                     <div id="cta">
                          <CTA />
                     </div>
-                    {/* <div id="footer">
-                         <Footer />
-                    </div> */}
                </div>
           </>
      )
