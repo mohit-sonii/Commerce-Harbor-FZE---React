@@ -1,0 +1,24 @@
+#container .image-container-product {
+          width: 100%;
+          background-image: url("../../../../assets/Thumbnail/ProductsThumbnail.png");
+          height: 90vh;
+          background-size: cover;
+          display: flex;
+          position: relative;
+          /* filter: grayscale(0.5); */
+          top: -3.5rem;
+          justify-content: center;
+          align-items: center;
+          /* background-size: max(1000px,100vw); */
+          background-position: center center;
+          background-repeat: no-repeat;
+          /* z-index: -1; */
+}
+
+#container .image-container-product .heading-product{
+     font-size:6.5rem;
+     font-weight: 700;
+     font-family: "Raleway", sans-serif;
+     /* width: 70%; */
+     color: white;
+}
