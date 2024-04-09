@@ -1,8 +1,8 @@
-import '../../Styles/What We Do/WhatWeDo.css'
+import '../../Styles/LandingPageInfo/LandingPageInfo.css'
 import diamond from "../../../../assets/Icons/DiamondIcon.png"
 import React from 'react'
 
-const WhatWeDo = ({heading,heading2,p1,p2}) => {
+const LandingPageInfo = ({heading,heading2,p1,p2}) => {
      return (
           <div id='section'>
                <img src={diamond} alt="" />
@@ -14,4 +14,4 @@ const WhatWeDo = ({heading,heading2,p1,p2}) => {
      )
 }
 
-export default WhatWeDo
+export default LandingPageInfo

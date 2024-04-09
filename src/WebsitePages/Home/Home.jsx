@@ -2,7 +2,7 @@ import React from "react"
 import "../../WebsitePages/Home/Home.css"
 import Header from "../../HomeComponents/Files/Header/Header"
 import LandingPage from "../../HomeComponents/Files/LandingPage/LandingPage"
-import WhatWeDo from "../../HomeComponents/Files/What we Do/WhatWeDo"
+import LandingPageInfo from "../../HomeComponents/Files/LandingPageInfo/LandingPageInfo"
 import Products from "../../HomeComponents/Files/Products/Products"
 import OurMission from "../../HomeComponents/Files/OurMission/OurMission"
 import Qualities from "../../HomeComponents/Files/Qualities/Qualities"
@@ -14,8 +14,8 @@ function Home() {
      return (
           <div id="main">
                <LandingPage />
-               <div id="WhatWeDo">
-                    <WhatWeDo heading={'OUR SERVICES'} heading2={'What We Do?'} p1 = {'At Commerce Harbor FZE, we pride ourselves on being a leading supplier of high-quality polymers to a wide range of industries. With a strong commitment to customer satisfaction and decades of cumulative experience in the industry, we strive to offer the best polymer solutions for your specific needs'}  p2={'To ensure a seamless experience for our customers, we maintain a robust supply chain and efficient logistics network. We have partnered with reliable shipping and freight companies to ensure timely delivery of your polymer orders, no matter where you are located.'} />
+               <div id="LandingPageInfo">
+                    <LandingPageInfo heading={'OUR SERVICES'} heading2={'What We Do?'} p1 = {'At Commerce Harbor FZE, we pride ourselves on being a leading supplier of high-quality polymers to a wide range of industries. With a strong commitment to customer satisfaction and decades of cumulative experience in the industry, we strive to offer the best polymer solutions for your specific needs'}  p2={'To ensure a seamless experience for our customers, we maintain a robust supply chain and efficient logistics network. We have partnered with reliable shipping and freight companies to ensure timely delivery of your polymer orders, no matter where you are located.'} />
                </div>
                <div id="products">
                     <Products />
