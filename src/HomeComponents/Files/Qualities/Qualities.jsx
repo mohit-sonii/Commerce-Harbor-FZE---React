@@ -9,9 +9,9 @@ const Qualities = () => {
           <>
                <div className="qualities-section">
                     <QualityIcon icon={Gem} h2={"Quality Assurance"} p={"We adhere to strict quality control measures to ensure that the polymer raw materials we supply meet the highest industry standards."} />
-                    <QualityIcon icon={Star} h2={"Reliability"} p={"Our consistent and timely deliveries ensure that your production processes remain seamless and efficient."}/>
+                    <QualityIcon icon={Star} h2={"Reliability"} p={"Our consistent and timely deliveries ensure that your production processes remain seamless and efficient."} />
                     <QualityIcon icon={Sustain} h2={"Sustainability"}
-                    p={"We are committed to promoting sustainable practices by offering eco-friendly and recyclable polymer raw materials."}/>
+                         p={"We are committed to promoting sustainable practices by offering eco-friendly and recyclable polymer raw materials."} />
 
                </div>
 

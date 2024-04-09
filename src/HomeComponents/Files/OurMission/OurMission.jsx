@@ -9,7 +9,7 @@ const OurMission = () => {
           <div id="ourMission">
                <div className="ourMissionContext">
                     <img src={diamond} alt="" />
-                    <p className='ourServices ourMission'>OUR Mission</p>
+                    <p className='our'>Our Mission</p>
                     <h2>COMMERCE HARBOR FZE</h2>
                     <p className='desc1'>We are committed to being a leading polymer distributor, providing exceptional value to our customers through the reliable supply of high-quality polymer materials. Our mission is to be a trusted partner in your success, delivering innovative solutions and personalized service that exceed your expectations.</p>
                     <div className="ourMissionButton">
