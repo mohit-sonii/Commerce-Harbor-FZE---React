@@ -8,22 +8,20 @@ import NavBar from "./HomeComponents/Files/NavBar/NavBar"
 
 function App() {
      return (
-          <div className="app-container">
-               <div id="header">
-                    <Header />
-               </div>
-               <div className="content">
+          <>
+               <div className="app-container">
+                    <div id="header">
+                         <Header />
+                    </div>
                     <div className="navigation">
                          <NavBar />
                     </div>
-                    <div id="main-content">
-                         <Outlet />
+                    <Outlet />
+                    <div id="footer">
+                         <Footer />
                     </div>
                </div>
-               <div id="footer">
-                    <Footer />
-               </div>
-          </div>
+          </>
      )
 }
 

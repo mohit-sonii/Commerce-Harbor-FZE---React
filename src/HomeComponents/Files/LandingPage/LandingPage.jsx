@@ -8,9 +8,9 @@ const LandingPage = () => {
      return (
           <>
                <div id="container">
-                    <div className="navigation">
-                         {/* <NavBar /> */}
-                    </div>
+                    {/* <div className="navigation">
+                          <NavBar /> 
+                    </div> */}
                     <div className="image-container" >
                          <div className="image-headings">
                               <p className='heading'>Your Trusted Partner for all Your Polymer Needs</p>

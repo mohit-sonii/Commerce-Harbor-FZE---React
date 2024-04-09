@@ -12,25 +12,23 @@ import Footer from "../../HomeComponents/Files/Footer/Footer"
 
 function Home() {
      return (
-          <>
-               <div id="main">
-                    <LandingPage />
-                    <div id="WhatWeDo">
-                         <WhatWeDo />
-                    </div>
-                    <div id="products">
-                         <Products />
-                    </div>
-                    <OurMission />
-                    <div id="qualities">
-                         <Qualities />
-                    </div>
-                    <Excellence />
-                    <div id="cta">
-                         <CTA />
-                    </div>
+          <div id="main">
+               <LandingPage />
+               <div id="WhatWeDo">
+                    <WhatWeDo />
                </div>
-          </>
+               <div id="products">
+                    <Products />
+               </div>
+               <OurMission />
+               <div id="qualities">
+                    <Qualities />
+               </div>
+               <Excellence />
+               <div id="cta">
+                    <CTA />
+               </div>
+          </div>
      )
 }
 
