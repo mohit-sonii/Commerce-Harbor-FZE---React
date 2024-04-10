@@ -12,8 +12,8 @@ const Header = () => {
                     <Logo />
                </div>
                <div className="tele-mess">
-                    <TelMessage value="+971 XXX XXX XXX (UAE)"  icon={<BsTelephone size={15} color="red"/>} />
-                    <TelMessage value="trade@Comharbor.com" icon={<CiMail size={15} color="red"/>} />
+                    <TelMessage value="+971 111 222 333 (UAE)" icon={<BsTelephone size={15} color="red" />} />
+                    <TelMessage value="trade@Comharbor.com" icon={<CiMail size={15} color="red" />} />
                </div>
           </div>
      )

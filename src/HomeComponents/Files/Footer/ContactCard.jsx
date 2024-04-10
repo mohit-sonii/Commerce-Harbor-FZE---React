@@ -19,8 +19,8 @@ const ContactCard = () => {
                               <div className="phoneInfo">
                                    <TelMessage icon={<BsTelephone size={15} color="red" />} textCol="white" />
                                    <div className="numbers">
-                                        <p className='contact-p'>+971 XXX XXX XXX (UAE)</p>
-                                        <p className='contact-p'>+91 XXX XXXX XXX (INDIA)</p>
+                                        <p className='contact-p'>+971 111 222 333 (UAE)</p>
+                                        <p className='contact-p'>+91 111 2222 333 (INDIA)</p>
                                    </div>
                               </div>
                               <div className="mailInfo">
