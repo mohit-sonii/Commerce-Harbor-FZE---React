@@ -1,7 +1,8 @@
 .contact-section {
      display: flex;
      gap: 2rem;
-     justify-content: center;
+     width: 100%;
+     justify-content: space-between;
 }
 
 
@@ -9,7 +10,8 @@
 .contact-section .mail,
 .contact-section .address {
      display: flex;
-     width: 30%;
+     width: 30rem;
+     background-color: orange;
      gap: 2rem;
 }
 
@@ -51,20 +53,25 @@
 .tradeMail,
 .UAEadd {
      font-size: 1.5rem;
-     font-weight: 300;
+     font-weight: 400;
 }
 
 
-.address .add-text{
+.address .add-text {
      width: 80%;
 }
 
 
-@media only screen and (max-width:900px){
-     .contact-section{
+@media only screen and (max-width:400px) {
+     .contact-section {
           gap: 1rem;
      }
-     .contact-section *{
-          flex-direction: column !important;
+
+     .contact-section * {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
      }
+
 }
