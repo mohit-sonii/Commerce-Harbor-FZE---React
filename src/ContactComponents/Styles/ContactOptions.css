@@ -10,7 +10,7 @@
 .contact-section .mail,
 .contact-section .address {
      display: flex;
-     width: 30rem;
+     width: 350px;
      gap: 2rem;
 }
 
@@ -45,6 +45,7 @@
 .add-text {
      display: flex;
      gap: 1rem;
+     width: max-content;
      flex-direction: column;
 }
 
@@ -61,7 +62,7 @@
 }
 
 
-@media only screen and (max-width:900px) {
+/* @media only screen and (max-width:900px) {
      .contact-section {
           gap: 4rem;
           justify-content: center;
@@ -75,4 +76,4 @@
           text-align: center;
      }
 
-}
+} */
