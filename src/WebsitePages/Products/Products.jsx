@@ -18,10 +18,11 @@ import rPVC from "../../../assets/RecycleProduct/rPVC.png"
 import rPP from "../../../assets/RecycleProduct/rPP.png"
 import rPE from "../../../assets/RecycleProduct/rPE.png"
 import rPS from "../../../assets/RecycleProduct/rPS.png"
+import ProductBanner from "../../../assets/Thumbnail/ProductsThumbnail.png"
 const Products = () => {
      return (
           <>
-               <LandingPage />
+               <LandingPage title={"PRODUCTS"} image={ProductBanner} />
                <div id="Info">
                     <Info p1={'Raw plastic materials are the fundamental building blocks used in the manufacturing of plastic products. These materials are derived from various sources and undergo processing to create the diverse range of plastics we encounter daily'} p2={'Each raw material possesses distinct characteristics, making it suitable for specific applications. These raw materials are molded, extruded, or processed differently to create an extensive range of plastic items that are integral to modern life. These raw materials have revolutionized modern industry and daily life due to their versatility, affordability, and ease of production'} />
                </div>
@@ -44,7 +45,7 @@ const Products = () => {
                </div>
                <ProductCategory category={'RECYCLED'} image={RecycleImage}/>
                <div id="Info" className='RecycleInfo'>
-                    <Info p1={'Recycled raw plastic materials are sustainable alternatives created from post-consumer or post-industrial plastic waste. Through recycling processes, they are cleaned, reprocessed, and transformed into reusable raw materials. Common types include rPET, rHDPE, rPP, rLDPE, rPVC, and rPS, each suitable for various applications. These recycled plastics play a vital role in reducing plastic waste, conserving resources, and lessening the environmental impact of plastic production, while also promoting a circular economy and environmental sustainability.'}/>
+                    <Info p1={'Recycled raw plastic materials are sustainable alternatives created from post-consumer or post-industrial plastic waste.These recycled plastics play a vital role in reducing plastic waste, conserving resources, and lessening the environmental impact of plastic production, while also promoting a circular economy and environmental sustainability.'}/>
                </div>
                <div id="CardsForRecycle">
                     <Card image={PETFlakes} dir = {'right'} description={'PET flakes are small pieces of recycled Polyethylene Terephthalate (PET) plastic. Produced by crushing and cleaning post-consumer PET bottles, these flakes are used in the manufacturing of textiles, packaging materials, and even food-grade containers. PET flakes contribute to environmental sustainability by reducing plastic waste and conserving resources. '}/>
