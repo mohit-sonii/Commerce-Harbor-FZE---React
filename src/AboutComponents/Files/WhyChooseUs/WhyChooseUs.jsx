@@ -3,11 +3,11 @@ import React from 'react'
 import redLine from "../../../../assets/Icons/redLine.png"
 import "../../Styles/WhyChooseUs/WhyChooseUs.css"
 
-const WhyChooseUs = () => {
+const WhyChooseUs = ({title}) => {
      return (
           <div id="whyContainer">
                <div id="WhyHeading">
-                    <h1>WHY CHOOSE US?</h1>
+                    <h1>{title}</h1>
                     <div className="redlines">
                          <img className='redline1' src={redLine} alt="" />
                          <img className='redline2' src={redLine} alt="" />

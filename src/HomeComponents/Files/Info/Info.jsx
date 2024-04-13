@@ -2,7 +2,7 @@ import '../../Styles/Info/Info.css'
 import diamond from "../../../../assets/Icons/DiamondIcon.png"
 import React from 'react'
 
-const Info = ({heading,heading2,p1,p2}) => {
+const Info = ({ heading, heading2, p1, p2 }) => {
      return (
           <div id='section'>
                <img src={diamond} alt="" />
