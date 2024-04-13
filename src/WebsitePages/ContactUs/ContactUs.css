@@ -1,8 +1,13 @@
-#ContactOptions{
+#ContactOptions, #form{
      display: flex;
      margin: auto;
      width: 90%;
+     margin-top: 5rem;
      margin-bottom: 10rem;
      /* margin: 5rem auto; */
-     justify-content: center;
 }
+#ContactOptions{
+     justify-content: center;
+
+}
+

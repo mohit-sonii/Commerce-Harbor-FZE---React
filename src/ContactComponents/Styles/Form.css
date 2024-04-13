@@ -1,0 +1,34 @@
+#FormDetail{
+     display: flex;
+     gap: 6rem;
+}
+#FormDetail h1{
+     font-size: 4rem;
+     margin-bottom: 1rem;
+}
+#FormDetail p{
+     font-size: 2rem;
+     font-weight: 300;
+}
+
+#FormDesign form{
+     display: flex;
+    justify-content: space-between;
+    gap: 3.5rem;
+}
+
+#FormDesign input{
+     color: #808080;
+     font-size: 2rem;
+     padding: 2rem;
+     display: flex;
+     width: 400px;
+     border: 0.5px solid #808080;
+     outline: none;
+
+}
+
+#FormDesign .textarea{
+     width: 100%;
+    height: 200px;
+}
