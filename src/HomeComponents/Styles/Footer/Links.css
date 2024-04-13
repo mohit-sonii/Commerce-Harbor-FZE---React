@@ -3,6 +3,32 @@
      gap: 5rem;
      color: white;
 }
+.foot-nav{
+     text-decoration: none;
+     position: relative;
+     color: rgba(255, 255, 255, 0.72);
+
+}
+
+.foot-nav::after{
+     content: '';
+     width: 0;
+     height: 1px;
+     position: absolute;
+     left: 0;
+     
+     bottom: -4px;
+     border-radius: 2px;
+     background-color: red;
+     transition: all 0.4s ease-in-out;
+
+}
+
+.foot-nav:hover::after{
+     width:100%;
+}
+
+
 
 .footer-links p {
      font-size: 2rem;
@@ -22,6 +48,7 @@
 }
 .footer-links  li:hover{
      font-weight: 700;
+     transform: translateX(5px);
 
 }
 .footer-links ul {

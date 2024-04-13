@@ -6,7 +6,29 @@
      display: flex;
      font-family: "Raleway", sans-serif;
      cursor: pointer;
+     position: relative;
+     transition: all 0.2s ease-in;
 }
+
+.nav-links::after{
+     content: '';
+     width: 0;
+     transition: all 0.4s ease-in-out;
+     height: 2px;
+     background-color: #fff;
+     position: absolute;
+     border-radius: 2px;
+     left: 0;
+     bottom: -6px;
+}
+.nav-links:hover::after{
+     width: 100%;
+}
+
+.nav-links:hover{
+     color: white;
+}
+
 
 nav ul li {
      list-style-type: none;

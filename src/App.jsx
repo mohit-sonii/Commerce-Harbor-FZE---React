@@ -6,8 +6,12 @@ import { Outlet } from "react-router-dom"
 import NavBar from "./HomeComponents/Files/NavBar/NavBar"
 //is app ko as a base us kr lega aur iske andr jo bhi aaega vo same rkega
 
+
+
 function App() {
+
      return (
+
           <>
                <div className="app-container">
                     <div id="header">

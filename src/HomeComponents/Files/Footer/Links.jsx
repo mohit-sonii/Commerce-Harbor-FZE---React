@@ -2,6 +2,7 @@
 import React from 'react'
 import "../../Styles/Footer/Links.css"
 import redLine from "../../../../assets/Icons/redLine.png"
+import { Link } from 'react-router-dom'
 const Links = () => {
      return (
           <div className='footer-links'>
@@ -14,9 +15,9 @@ const Links = () => {
                     </div>
                     <div className="all-links">
                          <ul>
-                              <li>About Us</li>
-                              <li>Products</li>
-                              <li>Industries</li>
+                              <li><Link to="/Commerce-Harbor-FZE---React/about" className="foot-nav">About Us</Link></li>
+                              <li><Link to="/Commerce-Harbor-FZE---React/products" className="foot-nav">Products</Link></li>
+                              <li><Link to="/Commerce-Harbor-FZE---React/industries" className="foot-nav">Industries</Link></li>
                          </ul>
                     </div>
                </div>
@@ -29,7 +30,7 @@ const Links = () => {
                     </div>
                     <div className="contact-link">
                          <ul>
-                              <li>Contact</li>
+                              <li><Link to="/Commerce-Harbor-FZE---React/contact" className="foot-nav">Contact</Link></li>
                               <li>Sitemap</li>
                          </ul>
                     </div>

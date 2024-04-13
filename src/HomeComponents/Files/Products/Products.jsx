@@ -8,6 +8,8 @@ import Button from "../Button/Button"
 import '../../Styles/Products/Products.css'
 import Card from "./Card"
 const Products = () => {
+
+
      return (
           <div id="product-section">
                <div id="cards">
@@ -19,8 +21,7 @@ const Products = () => {
                     <Card image={product6} title={"LDPE Recycled"} />
                </div>
                <div className="product-button">
-
-                    <Button  text={"VIEW ALL PRODUCTS"} btnColor={"#1d1d1d"}/>
+                    <Button destination = {'/Commerce-Harbor-FZE---React/products'} text={"VIEW ALL PRODUCTS"} btnColor={"#1d1d1d"}/>
                </div>
           </div>
      )
