@@ -7,7 +7,6 @@ import NavBar from "./HomeComponents/Files/NavBar/NavBar"
 //is app ko as a base us kr lega aur iske andr jo bhi aaega vo same rkega
 
 
-
 function App() {
 
      return (

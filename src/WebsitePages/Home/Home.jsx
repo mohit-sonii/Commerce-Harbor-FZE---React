@@ -1,6 +1,5 @@
-import React from "react"
+import {React, useEffect} from "react"
 import "../../WebsitePages/Home/Home.css"
-import Header from "../../HomeComponents/Files/Header/Header"
 import LandingPage from "../../HomeComponents/Files/LandingPage/LandingPage"
 import Info from "../../HomeComponents/Files/Info/Info"
 import Products from "../../HomeComponents/Files/Products/Products"
@@ -8,9 +7,16 @@ import OurMission from "../../HomeComponents/Files/OurMission/OurMission"
 import Qualities from "../../HomeComponents/Files/Qualities/Qualities"
 import Excellence from "../../HomeComponents/Files/Excellence/Excellence"
 import CTA from "../../HomeComponents/Files/CTA/CTA"
-import Footer from "../../HomeComponents/Files/Footer/Footer"
+import { useLocation } from "react-router-dom"
 
 function Home() {
+
+
+     const { scrolling } = useLocation();
+     useEffect(() => {
+          window.scrollTo(0, 0);
+     }, [scrolling])
+
      return (
           <div id="main">
                <LandingPage />

@@ -11,7 +11,22 @@ import HouseHoldImage from "../../../assets/IndustryImages/HouseHold.png"
 import MedicalImage from "../../../assets/IndustryImages/Medical.png"
 import PackagingImage from "../../../assets/IndustryImages/Packaging.png"
 import ConstructionImage from "../../../assets/IndustryImages/Construction.png"
+
+
+
+import { useLocation } from "react-router-dom"
+
+
+
 const Industries = () => {
+
+
+
+     const { scrolling } = useLocation();
+     useEffect(() => {
+          window.scrollTo(0, 0);
+     }, [scrolling])
+
      return (
           <>
                <LandingPage title={"INDUSTRIES"} image={IndustryBanner} />

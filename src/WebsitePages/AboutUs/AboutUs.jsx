@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useEffect} from 'react'
 import AboutBanner from "../../../assets/Thumbnail/about.png"
 import Info from '../../HomeComponents/Files/Info/Info'
 import "./AboutUs.css"
@@ -11,8 +11,13 @@ import Extra from "../../AboutComponents/Files/Extra/Extra"
 import Image from "../../../assets/aboutUs/extraimage.png"
 import Source from "../../../assets/aboutUs/source.png"
 import Sourcing from "../../AboutComponents/Files/Sourcing/Sourcing"
-
+import { useLocation } from "react-router-dom"
 const AboutUs = () => {
+
+     const { scrolling } = useLocation();
+     useEffect(() => {
+          window.scrollTo(0, 0);
+     }, [scrolling])
 
      return (
           <>

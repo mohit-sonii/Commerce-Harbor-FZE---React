@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -12,9 +12,10 @@ import NavBar from './HomeComponents/Files/NavBar/NavBar.jsx'
 import Industries from './WebsitePages/Industries/Industries.jsx'
 import ContactUs from './WebsitePages/ContactUs/ContactUs.jsx'
 import Products from './WebsitePages/Products/Products.jsx'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Use BrowserRouter instead of createBrowserRouter
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'; // Use BrowserRouter instead of createBrowserRouter
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+
 
 
 // const router = createBrowserRouter([
