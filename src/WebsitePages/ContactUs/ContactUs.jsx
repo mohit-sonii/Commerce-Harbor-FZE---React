@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,useEffect} from 'react'
 import './ContactUs.css'
 import Form from "../../ContactComponents/Files/Form"
 import ContactOptions from "../../ContactComponents/Files/ContactOptions"

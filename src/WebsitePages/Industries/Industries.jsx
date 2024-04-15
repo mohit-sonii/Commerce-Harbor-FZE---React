@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,useEffect} from 'react'
 import "./Industries.css"
 import LandingPage from "../../ProductComponents/Files/LandingPage/LandingPage"
 import Info from '../../HomeComponents/Files/Info/Info'

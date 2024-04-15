@@ -77,19 +77,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           </Router>
      </React.StrictMode>,
 )
-// ReactDOM.render(
-//      <React.StrictMode>
-//           <Router>
-//                <Routes>
-//                     <Route path="/" element={<App />}>
-//                          <Route index element={<LandingPage />} />
-//                          <Route path="about" element={<AboutUs />} />
-//                          <Route path="contact" element={<ContactUs />} />
-//                          <Route path="industries" element={<Industries />} />
-//                          <Route path="products" element={<Products />} />
-//                     </Route>
-//                </Routes>
-//           </Router>
-//      </React.StrictMode>,
-//      document.getElementById('root')
-// );

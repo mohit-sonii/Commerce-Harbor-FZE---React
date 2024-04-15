@@ -1,16 +1,21 @@
-#container {
-     width: 100%;
-     height: 100%;
-     display: flex;
-}
+
 
 .image-container {
      width: 100%;
-     background-image: url("../../../../assets/Thumbnail/Picture1.png");
      height: 90vh;
+     position: relative;
+     display: flex;
+}
+
+.image-container::before {
+     width: 100%;
+     content: '';
+     background-image: url("../../../../assets/Thumbnail/Picture4.png");
+     height: 100%;
      background-size: cover;
      display: flex;
-     position: relative;
+     position: absolute;
+     filter: brightness(50%);
      /* filter: grayscale(0.5); */
      top: -3.5rem;
      justify-content: flex-start;
@@ -33,6 +38,7 @@
      width: 90%;
      z-index: 2;
      gap: 3rem;
+     position: relative;
      margin: auto;
      display: flex;
      justify-content: flex-start;
@@ -71,6 +77,9 @@
      .image-headings .subheading {
           width: 75%;
      }
+     .image-container{
+          height: 60vh;
+     }
 }
 
 @media only screen and (min-width:1601px) {
@@ -86,6 +95,6 @@
 .button {
      display: flex;
      justify-content: flex-start;
-     margin-top: 5rem;
+     margin: 5rem auto;
      width: 100%;
 }
