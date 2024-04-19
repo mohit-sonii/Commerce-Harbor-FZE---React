@@ -6,6 +6,7 @@ Now I am familiar with React as well, so thought to code my own designed website
 
 
 Project started on :---> 2 April 2024
+Completed on :----> 15 April 2024
 
 Design Link :----->  https://www.behance.net/gallery/185878627/Commerce-Harbor-Fze
 
