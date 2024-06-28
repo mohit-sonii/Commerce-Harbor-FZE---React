@@ -17,7 +17,7 @@ const Form = () => {
      const handleSubmit = async (e) => {
           e.preventDefault()
           try {
-               const response = await api.post(`http://localhost:5173/Commerce-Harbor-FZE---MERN/contact`, data, {
+               const response = await api.post(`https://commerce-harbor-fze-mern.vercel.app/contact`, data, {
                     headers: {
                          'Content-Type': 'multipart/form-data'
                     }
