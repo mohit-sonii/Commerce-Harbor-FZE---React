@@ -15,9 +15,9 @@ const Links = () => {
                     </div>
                     <div className="all-links">
                          <ul>
-                              <li><Link to="/Commerce-Harbor-FZE---React/about" className="foot-nav">About Us</Link></li>
-                              <li><Link to="/Commerce-Harbor-FZE---React/products" className="foot-nav">Products</Link></li>
-                              <li><Link to="/Commerce-Harbor-FZE---React/industries" className="foot-nav">Industries</Link></li>
+                              <li><Link to="/Commerce-Harbor-FZE---MERN/about" className="foot-nav">About Us</Link></li>
+                              <li><Link to="/Commerce-Harbor-FZE---MERN/products" className="foot-nav">Products</Link></li>
+                              <li><Link to="/Commerce-Harbor-FZE---MERN/industries" className="foot-nav">Industries</Link></li>
                          </ul>
                     </div>
                </div>
@@ -30,7 +30,7 @@ const Links = () => {
                     </div>
                     <div className="contact-link">
                          <ul>
-                              <li><Link to="/Commerce-Harbor-FZE---React/contact" className="foot-nav">Contact</Link></li>
+                              <li><Link to="/Commerce-Harbor-FZE---MERN/contact" className="foot-nav">Contact</Link></li>
                               <li>Sitemap</li>
                          </ul>
                     </div>

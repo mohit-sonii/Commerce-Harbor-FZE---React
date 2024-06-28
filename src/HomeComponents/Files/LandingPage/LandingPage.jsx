@@ -32,7 +32,7 @@ const LandingPage = () => {
                               <p className='heading'>Your Trusted Partner for all Your Polymer Needs</p>
                               <p className='subheading'>we are dedicated to providing the highest quality polymer solutions to meet the needs of a wide range of industries</p>
                               <div className="button">
-                                   <Button destination={'/Commerce-Harbor-FZE---React/contact'} text="Get a Free Quote" btnColor={"red"} />
+                                   <Button destination={'/Commerce-Harbor-FZE---MERN/contact'} text="Get a Free Quote" btnColor={"red"} />
                               </div>
                          </div>
                     </div>

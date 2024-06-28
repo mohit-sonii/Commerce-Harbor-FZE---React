@@ -14,11 +14,11 @@ const NavBar = () => {
      return (
           <nav>
                <ul>
-                    <li><Link  to="/Commerce-Harbor-FZE---React/" className="nav-links">Home</Link></li>
-                    <li><Link to="/Commerce-Harbor-FZE---React/products" className="nav-links">Products</Link></li>
-                    <li><Link to="/Commerce-Harbor-FZE---React/industries" className="nav-links">Industries</Link></li>
-                    <li><Link to="/Commerce-Harbor-FZE---React/contact" className="nav-links">Contact Us</Link></li>
-                    <li><Link to="/Commerce-Harbor-FZE---React/about" className="nav-links">About Us</Link></li>
+                    <li><Link  to="/Commerce-Harbor-FZE---MERN/" className="nav-links">Home</Link></li>
+                    <li><Link to="/Commerce-Harbor-FZE---MERN/products" className="nav-links">Products</Link></li>
+                    <li><Link to="/Commerce-Harbor-FZE---MERN/industries" className="nav-links">Industries</Link></li>
+                    <li><Link to="/Commerce-Harbor-FZE---MERN/contact" className="nav-links">Contact Us</Link></li>
+                    <li><Link to="/Commerce-Harbor-FZE---MERN/about" className="nav-links">About Us</Link></li>
 
                </ul>
           </nav>
