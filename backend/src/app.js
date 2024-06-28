@@ -6,8 +6,8 @@ const app = express()
 
 app.use('/', form)
 app.use(cors({
-     origin: 'https://commerce-harbor-fze-mern.vercel.app/',
-     credentials: true
+     origin: 'https://mohit-sonii.github.io',
+     optionsSuccessStatus: 200
 }))
 
 app.use((err, req, res, next) => {
