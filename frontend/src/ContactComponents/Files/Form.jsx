@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react'
 import "../Styles/Form.css"
+import axios from 'axios'
 import Button from '../../HomeComponents/Files/Button/Button'
 import api from '../../axiosInstance'
 const Form = () => {
@@ -17,7 +18,7 @@ const Form = () => {
      const handleSubmit = async (e) => {
           e.preventDefault()
           try {
-               const response = await api.post(`https://commerce-harbor-fze-mern.vercel.app/contact`, data, {
+               const response = await axios.post(`contact`, data, {
                     headers: {
                          'Content-Type': 'multipart/form-data'
                     }

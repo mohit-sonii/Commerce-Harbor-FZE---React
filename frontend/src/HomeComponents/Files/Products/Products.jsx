@@ -21,7 +21,7 @@ const Products = () => {
                     <Card image={product6} title={"LDPE Recycled"} />
                </div>
                <div className="product-button">
-                    <Button destination = {'/Commerce-Harbor-FZE---MERN/products'} text={"VIEW ALL PRODUCTS"} btnColor={"#1d1d1d"}/>
+                    <Button destination = {'/products'} text={"VIEW ALL PRODUCTS"} btnColor={"#1d1d1d"}/>
                </div>
           </div>
      )

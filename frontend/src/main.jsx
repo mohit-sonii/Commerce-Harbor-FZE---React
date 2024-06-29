@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
      <React.StrictMode>
           <Router>
                <Routes>
-                    <Route path="/Commerce-Harbor-FZE---MERN/" element={<App />}>
+                    <Route path="/" element={<App />}>
                          <Route index element={<Home />} />
                          <Route path="about" element={<AboutUs />} />
                          <Route path="home" element={<Home />} />
