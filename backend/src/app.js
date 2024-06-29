@@ -4,11 +4,15 @@ import cors from 'cors'
 import form from './routes/form.routes.js'
 const app = express()
 
-app.use('/', form)
-app.use(cors({
-     origin: 'https://mohit-sonii.github.io',
-     optionsSuccessStatus: 200
-}))
+
+
+const corsOptions = {
+     origin: ['http://localhost:5173','https://main--commerce-harbor-fze.netlify.app'],
+     methods: ['GET', 'POST'],
+     allowedHeaders: ['Content-Type'],
+ };
+app.use(cors(corsOptions))
+app.use('/contact', form)
 
 app.use((err, req, res, next) => {
      const statusCode = err.statusCode || 500;

@@ -18,7 +18,7 @@ const Form = () => {
      const handleSubmit = async (e) => {
           e.preventDefault()
           try {
-               const response = await axios.post(`contact`, data, {
+               const response = await axios.post(`https://commerce-harbor-fze-mern.onrender.com/contact`, data, {
                     headers: {
                          'Content-Type': 'multipart/form-data'
                     }
