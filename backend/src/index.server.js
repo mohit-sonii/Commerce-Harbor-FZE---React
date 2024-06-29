@@ -9,12 +9,10 @@ dotenv.config({
 
 
 mongoDB().then(() => {
-     if (process.env.NODE_ENV !== 'production') {
-          const PORT = process.env.PORT || 8000;
-          app.listen(PORT, () => {
-               console.log(`Server is running on port ${PORT}`);
-          });
-     }
+     app.listen(process.env.PORT, () => {
+          console.log(`Server is running on port ${process.env.PORT}`);
+     });
+
 }).catch((err) => {
      throw new handleError(500, err.message || 'Error in running the server')
 })
