@@ -16,6 +16,6 @@ mongoDB().then(() => {
           });
      }
 }).catch((err) => {
-     throw new handleError(err, 500, 'Error in running the server')
+     throw new handleError( 500, 'Error in running the server')
 })
 
