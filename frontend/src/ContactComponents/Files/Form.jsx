@@ -24,6 +24,7 @@ const Form = () => {
                     }
                })
                console.log(response.data.data)
+               if(!response) throw new Error('Error while submiting the form')
           } catch (err) {
                setErr(err?.response?.message || 'problem in fetching')
           }
