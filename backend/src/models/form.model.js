@@ -1,5 +1,4 @@
 import mongoose, { Schema } from "mongoose";
-import { PiNumberCircleEight } from "react-icons/pi";
 
 const formSchema = new Schema({
      name: {
