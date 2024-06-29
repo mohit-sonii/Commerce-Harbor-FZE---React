@@ -8,12 +8,18 @@ dotenv.config({
 })
 
 
-mongoDB().then(() => {
-     app.listen(process.env.PORT, () => {
-          console.log(`Server is running on port ${process.env.PORT}`);
-     });
+const startServer = async () => {
+     try {
+          await mongoDB();
+          const PORT = process.env.PORT || 8000;
+          app.listen(PORT, () => {
+               console.log(`Server is running on port ${PORT}`);
+          });
+     } catch (err) {
+          console.error('Failed to connect to the database', err);
+          // Handle error appropriately, for example:
+          process.exit(1);
+     }
+};
 
-}).catch((err) => {
-     throw new handleError(500, err.message || 'Error in running the server')
-})
-
+startServer();
