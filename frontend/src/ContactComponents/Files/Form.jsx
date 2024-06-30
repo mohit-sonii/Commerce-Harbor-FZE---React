@@ -1,9 +1,7 @@
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "../Styles/Form.css"
 import axios from 'axios'
-import Button from '../../HomeComponents/Files/Button/Button'
-import api from '../../axiosInstance'
 const Form = () => {
      const [success, setSuccess] = useState()
      const [data, setData] = useState({
@@ -23,8 +21,9 @@ const Form = () => {
                          'Content-Type': 'multipart/form-data'
                     }
                })
-               console.log(response.data.data)
-               if(!response) throw new Error('Error while submiting the form')
+               if (response.status !== 200) throw new Error('Error while submiting the form')
+                    
+               setSuccess('Submitted Successfully')
           } catch (err) {
                setErr(err?.response?.message || 'problem in fetching')
           }
@@ -35,13 +34,21 @@ const Form = () => {
           setData({ ...data, [name]: value })
      }
 
+     useEffect(() => {
+          const timer = setTimeout(() => {
+               setSuccess('');
+               setErr('');
+          }, 2000);
+
+          return () => clearTimeout(timer);
+     }, [success, err]);
      return (
           <div id="FormDetail">
                <div className="contact-headings-form">
                     <h1>Let's Talk !</h1>
                     <p>Get in touch with us using the enquiry form or contact details below</p>
                </div>
-               <div id="FormDesign">
+               <div id="FormDesign" style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
                     <form onSubmit={handleSubmit}>
                          <input name='name' value={data.name} onChange={handleChange} type="text" placeholder='Your Name ' required />
                          <input name='contact' value={data.contact} onChange={handleChange} type="tel" placeholder='Contact No. ' required />
