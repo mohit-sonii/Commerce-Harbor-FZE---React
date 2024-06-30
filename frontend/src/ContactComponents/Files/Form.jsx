@@ -22,10 +22,9 @@ const Form = () => {
                     }
                })
                if (response.status !== 200) throw new Error('Error while submiting the form')
-                    
-               setSuccess('Submitted Successfully')
+               setSuccess('Thanks for your Submission. We will contact you very soon')
           } catch (err) {
-               setErr(err?.response?.message || 'problem in fetching')
+               setErr(err?.response?.data.message || 'Sorry, we cannot process your request at this moment')
           }
      }
 

@@ -23,6 +23,7 @@ export const formController = asyncHandler(async (req, res) => {
                ))
 
      } catch (err) {
-          throw new handleError(400, err.message || 'Their is an issue while submitting the form')
+          next(err)
+          // throw new handleError(400, err.message || 'Their is an issue while submitting the form')
      }
 })
