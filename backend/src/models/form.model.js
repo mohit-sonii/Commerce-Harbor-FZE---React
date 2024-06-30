@@ -21,6 +21,6 @@ const formSchema = new Schema({
           type: String,
           required: true
      },
-})
+}, { timestamps: true })
 
 export const Form = mongoose.model('Form', formSchema)
