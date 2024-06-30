@@ -7,7 +7,7 @@ const app = express()
 
 
 const corsOptions = {
-     origin: ['http://localhost:5173','https://main--commerce-harbor-fze.netlify.app'],
+     origin: ['http://localhost:5173','https://commerce-harbor-fze.netlify.app'],
      methods: ['GET', 'POST'],
      allowedHeaders: ['Content-Type'],
  };
